@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative h-screen w-full max-w-full font-anton flex justify-center select-none overflow-hidden">
+    <section id="home" className="relative min-h-[100dvh] w-full max-w-full font-anton flex justify-center select-none overflow-hidden">
 
       {/* ========================================================= */}
       {/* NAME SECTION                                              */}
@@ -152,7 +152,7 @@ const Hero = () => {
           }}
         >
           FRONTEND <br />
-          BACKENDD <br />
+          BACKEND <br />
           <span className="text-orange">
             EVERYTHING
           </span>
